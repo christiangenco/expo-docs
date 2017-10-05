@@ -2,7 +2,9 @@
 title: DocumentPicker
 ---
 
-Provides access to the system's UI for selecting documents from the available providers on the user's device.
+Provides access to the system's UI for selecting documents from the available providers on the user's device. 
+
+In iOS Expokit projects, the DocumentPicker module requires the iCloud entitlement to work properly. To enable iCloud entitlement, [build your project as a standalone iOS app](https://docs.expo.io/versions/latest/guides/building-standalone-apps.html), then open the project in Xcode and follow the [Using DocumentPicker instructions](/versions/latest/guides/advanced-expokit-topics.html#using-documentpicker) in the Advanced ExpoKit Topics.
 
 ### `Expo.DocumentPicker.getDocumentAsync(options)`
 
